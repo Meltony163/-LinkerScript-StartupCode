@@ -4,8 +4,8 @@ This repository contains the linker script and startup code specifically designe
 
 ## Repository Structure
 
-- **`linker.ld`**: The linker script that defines the memory layout of the STM32F103C8T6, including the flash memory, SRAM, and stack.
-- **`startup_stm32f103c8t6.s`**: The assembly startup code that sets up the initial stack pointer, vector table, and handles the reset and default interrupt service routines (ISRs).
+- **`LinkerScript.ld`**: The linker script that defines the memory layout of the STM32F103C8T6, including the flash memory, SRAM, and stack.
+- **`StartupCode.c`**: The c startup code that sets up the initial stack pointer, vector table, and handles the reset and default interrupt service routines (ISRs).
 
 ## Getting Started
 
