@@ -16,8 +16,6 @@ To build and run the code in this repository, you will need:
 - **ARM GCC Toolchain**: `arm-none-eabi-gcc` and related tools.
 - **STM32CubeProgrammer** (optional): Another option for flashing the microcontroller.
 
-### Building the Project
-
 # Memory Layout
 The memory layout for STM32F103C8T6 is as follows:
 
